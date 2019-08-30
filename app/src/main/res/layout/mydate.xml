@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/w_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large">
+
+        <TextView
+            android:id="@+id/mydate_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_17"
+            android:textColor="@color/black_text_bg"
+            android:text="@string/text_change_cancle"/>
+
+        <TextView
+            android:id="@+id/mydate_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/black_text_bg"
+            android:text="@string/choose_time"
+            android:textSize="@dimen/text_size_20" />
+
+        <TextView
+            android:id="@+id/mydate_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sure"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_17"
+            android:textColor="@color/black_text_bg"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_toolbar_title" />
+
+    <RelativeLayout
+        android:id="@+id/mydate_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/w_color">
+
+        <ListView
+            android:id="@+id/mydate_year_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"></ListView>
+
+        <ListView
+            android:id="@+id/mydate_month_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mydate_year_listview"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none"></ListView>
+
+        <ListView
+            android:id="@+id/mydate_day_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mydate_month_listview"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none"></ListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/mydate_linear"
+            android:background="@color/bg_toolbar_title" />
+
+        <LinearLayout
+            android:id="@+id/mydate_linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/mydate_year_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:text="2014"
+                    android:textColor="@color/bg_toolbar_title"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_toRightOf="@+id/mydate_year_text"
+                    android:layout_marginLeft="@dimen/margin_13"
+                    android:text="@string/text_Myinfo_years"
+                    android:textSize="24sp"
+                    android:textColor="@color/black_text_bg"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mydate_month_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="02"
+                    android:textColor="@color/bg_toolbar_title"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_toRightOf="@+id/mydate_month_text"
+                    android:text="@string/text_Myinfo_month"
+                    android:textColor="@color/black_text_bg"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mydate_day_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:text="2"
+                    android:textColor="@color/bg_toolbar_title"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/text_Myinfo_day"
+                    android:layout_toRightOf="@+id/mydate_day_text"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:textSize="24sp"
+                    android:textColor="@color/black_text_bg"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/mydate_linear"
+            android:background="@color/bg_toolbar_title" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_toolbar_title" />
+
+    <LinearLayout
+        android:id="@+id/mydate_bottom_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="green">#45C01A</color>
+    <color name="green_wave">#00ff18</color>
+    <color name="gray">#999999</color>
+    <color name="title_blue">#BEFEFE</color>
+    <color name="me_gray">#EAEAEA</color>
+    <color name="blue">#ff3f8fe4</color>
+    <color name="main_bg">#fff5f5f5</color>
+    <color name="search_edittext_bg">#cccccc</color>
+    <color name="line_bg">#F2F2F2</color>
+    <color name="colorHomebg">#e5e5e5</color>
+    <color name="colorHomeText">#808080</color>
+
+    <color name="white_">#FEFEFE</color>
+
+    <color name="grey_bg">#f4f4f4</color>
+
+    <color name="black_text_bg">#282828</color>
+    <color name="head_title_bg">#290d0d0d</color>
+
+    <color name="dev_manager_bg">#c3c3c3</color>
+
+    <color name="login_title_bg">#5a5a5a</color>
+
+    <color name="grey_divide">#858585</color>
+
+    <color name="white_bg">#80FFFFFF</color>
+
+    <color name="ecg_bg">#32b2fb</color>
+
+    <color name="back_bg">#a6dcfa</color>
+
+    <color name="register_text_color">#666666</color>
+
+    <!--login-->
+    <color name="login_grey">#40bfbfbf</color>
+    <color name="login_gray">#a4a4a4</color>
+    <color name="login_blue">#9943a6de</color>
+
+    <color name="me_bg">#4a4a4a</color>
+
+    <color name="regiter_grey">#f3f3f3</color>
+
+
+    <color name="measure_error_bg">#EA5858</color>
+    <color name="measure_error_btn">#32AAFB</color>
+    <color name="measure_btn_bg">#f2efef</color>
+    <color name="measure_error_info">#323232</color>
+    <color name="measure_chart_btn">#FEFFFF</color>
+
+    <!--health_dial-->
+    <color name="dial_blue">#32b2fb</color>
+    <color name="dial_blue_mix">#24d48b</color>
+    <color name="dial_green">#12ff00</color>
+    <color name="dial_red_mix">#818c1a</color>
+    <color name="dial_red">#f01934</color>
+
+    <!--fat-->
+    <color name="fat_white_bg">#F0FFFFFF</color>
+
+    <!--round-->
+    <color name="round_gray_bg">#d3d3d3</color>
+
+    <color name="green_btn">#6ab82d</color>
+    <!--<color name="green_btn">#00ff00</color>-->
+    <color name="red_btn">#f8363a</color>
+    <color name="colorGray">#efefef</color>
+
+    <!--health test-->
+    <color name="gray_test">#656565</color>
+    <color name="yellow_test">#ffc561</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="list_divider_color">#EEEEEE</color>
+    <color name="red">#FFfd5151</color>
+    <color name="register_grey">#858585</color>
+
+    <color name="dialog_transparent">#20000000</color>
+
+    <color name="gray_ecg">#FBFBFB</color>
+
+    <!--地址和筛选-->
+    <color name="add_fitler_color">#0000ff</color>
+    <!--背景-->
+    <color name="w_color">#ffffff</color>
+    <!--提示-->
+    <color name="blue_tip">#035482</color>
+
+    <!--addmember-->
+    <color name="woman_bg">#904581</color>
+    <color name="man_bg">#3fd8c5</color>
+
+    <color name="text">#696969</color>
+    <color name="mainColor">#FF3333</color>
+
+    <color name="color_1">#06AE10</color>
+    <color name="color_2">#ff4dd0c8</color>
+    <color name="color_3">#ffa05a</color>
+    <color name="color_4">#d1c752</color>
+    <color name="color_5">#52d1a7</color>
+    <color name="color_6">#a752d1</color>
+    <color name="color_7">#52a6d1</color>
+    <!--黑色字体颜色--><!--b3/4d -->
+    <color name="black_color">#80000000</color>
+    <!--注册主题-->
+    <color name="black_register">#010101</color>
+
+    <!--体脂称体重字体-->
+    <color name="weight_text_bg">#e2ffff</color>
+    <color name="round_bg">#88c8db</color>
+
+    <!--toolbar背景色-->
+    <!--<color name="bg_toolbar_title">#43a6de</color>-->
+    <color name="bg_toolbar_title">#32b2fb</color>
+
+    <color name="blue_bg">#32c1fa</color>
+
+    <color name="bg_line_chart">#38b7fd</color>
+
+    <color name="yellow">#FFFF00</color>
+
+    <color name="tyellow">#50FFFF00</color>
+
+    <color name="ye">#F2F223</color>
+
+    <color name="record_yellow">#F1C500</color>
+
+    <color name="red_envelope_value">#FFAD6B</color>
+
+    <!--好牙-->
+    <color name="tooth_blue">#ccedff</color>
+    <!--<color name="tooth_blue">#a1d6f5</color>-->
+    <color name="tooth_yellow">#f7a900</color>
+    <color name="tooth_gray">#f2f2f2</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#f57f17</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#fbc02d</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+
+    <integer-array name="gradient_arc_color">
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+        <item>@android:color/transparent</item>
+    </integer-array>
+
+
+    <!--calender-->
+    <color name="colorTranslate">#00FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorWrite">#FFFFFF</color>
+
+    <color name="color_schedule_purple">#9082BD</color>
+    <color name="color_schedule_orange">#f6af80</color>
+    <color name="color_schedule_pink">#E67986</color>
+    <color name="color_schedule_yellow">#F7E373</color>
+    <color name="color_schedule_green">#84C5A3</color>
+    <color name="color_schedule_blue">#679BE4</color>
+    <color name="color_schedule_grey">#B9B9BD</color>
+    <color name="color_schedule_start">#3D81E2</color>
+    <color name="color_schedule_finish">#EC4A5F</color>
+    <color name="color_schedule_title_text">#272E3E</color>
+    <color name="color_schedule_finish_title_text">#7F838F</color>
+    <color name="color_schedule_line">#E3E1EE</color>
+
+    <color name="color_schedule_normal">#9E9DC9</color>
+    <color name="color_schedule_focus">#9082BD</color>
+
+    <color name="calendar_bg_color">#FFFFFF</color>
+    <color name="holiday_text_color">#9082BD</color>
+    <color name="select_circle_color">#FF8594</color>
+    <color name="colorBackground">#F0F1F5</color>
+
+    <color name="color_circle_border">#706F7D</color>
+    <color name="color_add_event_set_border">#EEEEEE</color>
+    <color name="color_add_event_set_content">#F4F4F4</color>
+    <color name="color_add_event_text">#282D40</color>
+
+    <color name="color_show_finish_normal">#9E9DC9</color>
+    <color name="color_show_finish_pre">#B2B1D3</color>
+    <color name="color_finish_hint_text">#8D8BA0</color>
+
+    <color name="color_bp_normal">#a8e856</color>
+    <color name="color_bp_scarce_high">#01af4d</color>
+    <color name="color_bp_little_high">#f3f21f</color>
+    <color name="color_bp_middle_high">#d46925</color>
+    <color name="color_bp_very_high">#c32227</color>
+    <color name="color_bp_low">#c32227</color>
+
+    <!--datatest-->
+    <color name="blue_datatest">#74cbfc</color>
+    <color name="red_datatest">#fa0000</color>
+    <color name="spo2h_datatest">#e6c6fc</color>
+    <color name="weight_datatest">#fa7a91</color>
+    <color name="bodyfat_datatest">#eacc2c</color>
+
+    <color name="code_bg">#1A1ADF</color>
+
+    <color name="tooth_auth_gray">#8e8e8e</color>
+    <color name="tooth_mode_line">#b7b7b9</color>
+    <color name="history_progress_red">#ff4254</color>
+    <color name="history_progress_blue">#58c2e9</color>
+    <color name="brush_yellow_tip">#ffa500</color>
+
+    <color name="bind_tooth_btn">#fa2121</color>
+
+
+    <color name="red_envelope_yellow">#FFE50C</color>
+    <color name="red_envelope_btn_text_bg">#6A0E15</color>
+    <color name="red_envelope_orange_text_bg">#E9682E</color>
+    <color name="red_envelope_red_text_bg">#F51818</color>
+
+
+    <color name="brush_level_bg">#303132</color>
+    <color name="brush_level_text_bg">#F9C442</color>
+
+
+    <color name="home_equit_title_bg">#8BCAFD</color>
+
+
+    <color name="red_envelope_title_bg">#D13D4B</color>
+
+    <color name="transparent_">#60000000</color>
+
+    <!--获取地址的颜色-->
+    <color name="green_11B57C">#11B57C</color>
+    <color name="black_333333">#333333</color>
+    <color name="line_DDDDDD">#DDDDDD</color>
+
+    <!--fatrecord-->
+    <color name="fat_standard">#53C8BF</color>
+    <color name="fat_big">#FEBE4F</color>
+    <color name="fat_small">#EF8041</color>
+
+
+    <!--Zxing相关-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+
+    <color name="photopicker_background">#181819</color>
+
+
+    <color name="shadow_default_color">#1a000000</color>
+    <color name="shadow_card_default_color">#ffffff</color>
+
+</resources>

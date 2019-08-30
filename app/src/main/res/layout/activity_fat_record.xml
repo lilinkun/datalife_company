@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:id="@+id/fat_record_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bg_toolbar_title">
+
+        <LinearLayout
+            android:id="@+id/ll_head_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_back_white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/history_record"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_headtop" />
+
+        <com.datalife.datalife_company.widget.RoundImageView
+            android:id="@+id/iv_round_right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:paddingLeft="@dimen/padding_10"
+            android:src="@mipmap/ic_head"/>
+
+    </RelativeLayout>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/my_chart"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@color/white" />
+
+
+    <com.datalife.datalife_company.widget.FatRecordLayout
+        android:id="@+id/fat_record_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.datalife.datalife_company.widget.FatRecordLayout>
+
+</LinearLayout>

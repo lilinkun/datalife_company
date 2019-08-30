@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/rl_head_title"
+        style="@style/headtop_styles">
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_head_left"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_back_white"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_headtop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_headtop"
+            android:layout_centerInParent="true"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/iv_head_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/iv_head_energer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10"/>
+                <ImageView
+                    android:id="@+id/iv_head_tooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_connect"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="@dimen/margin_head_small"
+                android:layout_margin="@dimen/padding_small"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:background="@drawable/ic_ble_connect"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/white"/>
+
+            <com.datalife.datalife_company.widget.RoundImageView
+                android:id="@+id/iv_round_right"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/margin_10"
+                android:paddingLeft="@dimen/padding_10"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/tv_head_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_16"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.datalife.datalife_company.widget.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="round">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BigStateView">
+        <attr name="visible_line" format="boolean"/>
+        <attr name="text1_str" format="string"/>
+        <attr name="text2_str" format="string"/>
+        <attr name="text3_str" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="titlebar">
+        <attr name="img_left" format="reference" />
+        <attr name="img_right" format="reference" />
+        <attr name="text_title" format="string" />
+        <attr name="title_color" format="color" />
+        <attr name="text_left" format="string" />
+        <attr name="left_TextSize" format="float"/>
+        <attr name="text_right" format="string" />
+        <attr name="layout_color" format="color" />
+        <attr name="left_visibility" format="boolean"/>
+        <attr name="text_size" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="EcgWaveView">
+        <attr name="waveColor" format="color" />
+        <attr name="waveStrokeWidth" format="dimension" />
+        <attr name="scrollable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="EcgBackgroundView">
+        <attr name="smallGridColor" format="color" />
+        <attr name="largeGridColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomProgressBar">
+        <!-- 圆形进度条进度显示的颜色 -->
+        <attr name="roundProgressColor" format="color"></attr>
+        <!-- 外圈圆的颜色 -->
+        <attr name="roundColor" format="color"></attr>
+        <!-- 圆的总宽度 -->
+        <attr name="roundWidth" format="dimension"></attr>
+        <!-- 字体显示的大小 -->
+        <attr name="textSize" format="dimension"></attr>
+        <!-- 字体显示的颜色　-->
+        <attr name="textColor" format="color"></attr>
+        <!-- 进度的最大值 -->
+        <attr name="max" format="integer"></attr>
+        <!-- 是否显示文字 -->
+        <attr name="textShow" format="boolean"></attr>
+    </declare-styleable>
+
+
+    <attr name="peakValue" format="dimension"/>
+    <attr name="speedOne" format="integer" />
+    <attr name="speedTwo" format="integer" />
+    <attr name="waveHeight" format="dimension" />
+
+    <declare-styleable name="DoubleWaveView">
+        <attr name="peakValue" />
+        <attr name="waveColor" />
+        <attr name="speedOne" />
+        <attr name="speedTwo" />
+        <attr name="waveHeight" />
+
+    </declare-styleable>
+
+    <declare-styleable name="bannerM">
+        <attr name="defaultImageDrawable" format="reference" />
+        <attr name="intervalTime" format="integer" />
+        <attr name="indexPosition">
+            <enum name="right" value="0x100" />
+            <enum name="bottom" value="0x101" />
+        </attr>
+        <attr name="indexColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DialProgress">
+        <attr name="antiAlias" />
+        <attr name="startAngle" />
+        <attr name="sweepAngle" />
+        <attr name="animTime" />
+        <attr name="maxValue" />
+        <attr name="minValue" />
+        <attr name="value" />
+        <attr name="precision" />
+        <attr name="valueSize" />
+        <attr name="valueColor" />
+        <attr name="textOffsetPercentInRadius" />
+        <!-- 绘制内容的单位 -->
+        <attr name="unit" />
+        <attr name="unitSize" />
+        <attr name="unitColor" />
+        <attr name="type" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 圆弧的宽度 -->
+        <attr name="arcWidth" />
+        <!-- 刻度的宽度 -->
+        <attr name="dialWidth" format="dimension|reference" />
+        <!-- 刻度之间的间隔 -->
+        <attr name="dialIntervalDegree" format="integer" />
+        <!-- 圆弧颜色， -->
+        <attr name="arcColors" />
+        <!-- 背景圆弧线颜色 -->
+        <attr name="bgArcColor" />
+        <!-- 刻度线颜色 -->
+        <attr name="dialColor" format="color|reference" />
+        <!-- 刻度线颜色 -->
+        <attr name="dialColor1" format="color|reference" />
+        <!--圆弧半径-->
+        <attr name="round" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCalendar">
+        <!--这四个颜色分别是月份、星期、日期、任务的背景色，只是方便调试测量时使用，正式试用时可配置透明色-->
+        <attr name="mBgMonth" format="color" />
+        <attr name="mBgWeek" format="color" />
+        <attr name="mBgDay" format="color" />
+        <attr name="mBgPre" format="color" />
+
+        <attr name="mTextColorMonth" format="color" />           <!--标题字体颜色-->
+        <attr name="mTextColorWeek" format="color" />            <!--星期字体颜色-->
+        <attr name="mSelectWeekTextColor" format="color" />      <!--当前星期字体颜色-->
+        <attr name="mTextColorDay" format="color" />             <!--日期字体颜色-->
+        <attr name="mTextColorPreFinish" format="color" />       <!--任务次数字体颜色-->
+        <attr name="mTextColorPreUnFinish" format="color" />
+        <attr name="mTextColorPreNull" format="color" />
+
+        <attr name="mTextSizeMonth" format="dimension" />        <!--标题字体大小-->
+        <attr name="mTextSizeWeek" format="dimension" />         <!--星期字体大小-->
+        <attr name="mTextSizeDay" format="dimension" />          <!--日期字体大小-->
+        <attr name="mTextSizePre" format="dimension" />          <!--任务次数字体大小-->
+
+        <attr name="mMonthRowL" format="reference" />            <!--月份箭头-->
+        <attr name="mMonthRowR" format="reference" />            <!--月份箭头-->
+        <attr name="mMonthRowSpac" format="dimension" />
+
+        <attr name="mSelectTextColor" format="color" />          <!--选中日期字体颜色-->
+        <attr name="mSelectBg" format="color" />                 <!--选中日期背景-->
+        <attr name="mSelectRadius" format="dimension" />         <!--选中日期背景半径-->
+        <attr name="mCurrentBg" format="color" />                <!--当天日期背景-->
+        <attr name="mCurrentBgStrokeWidth" format="dimension" /> <!--当天日期背景虚线宽度-->
+        <attr name="mCurrentBgDashPath" format="reference" />    <!--当天日期背景虚线数组-->
+
+        <attr name="mMonthSpac" format="dimension" />            <!--标题月份上下间隔-->
+        <attr name="mLineSpac" format="dimension" />             <!--日期行间距-->
+        <attr name="mTextSpac" format="dimension" />             <!--日期和任务次数字体上下间距-->
+    </declare-styleable>
+
+    <declare-styleable name="WeekBarView">
+        <attr name="week_text_color" format="color"/>
+        <attr name="week_text_size" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MonthCalendarView">
+        <attr name="month_selected_text_color" format="color"/>
+        <attr name="month_selected_circle_color" format="color"/>
+        <attr name="month_selected_circle_today_color" format="color"/>
+        <attr name="month_normal_text_color" format="color"/>
+        <attr name="month_today_text_color" format="color"/>
+        <attr name="month_lunar_text_color" format="color"/>
+        <attr name="month_hint_circle_color" format="color"/>
+        <attr name="month_holiday_color" format="color"/>
+        <attr name="month_last_or_next_month_text_color" format="color"/>
+        <attr name="month_day_text_size" format="integer"/>
+        <attr name="month_day_lunar_text_size" format="integer"/>
+        <attr name="month_show_task_hint" format="boolean"/>
+        <attr name="month_show_lunar" format="boolean"/>
+        <attr name="month_show_holiday_hint" format="boolean"/>
+        <attr name="month_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WeekCalendarView">
+        <attr name="week_selected_text_color" format="color"/>
+        <attr name="week_selected_circle_color" format="color"/>
+        <attr name="week_selected_circle_today_color" format="color"/>
+        <attr name="week_normal_text_color" format="color"/>
+        <attr name="week_today_text_color" format="color"/>
+        <attr name="week_hint_circle_color" format="color"/>
+        <attr name="week_holiday_color" format="color"/>
+        <attr name="week_lunar_text_color" format="color"/>
+        <attr name="week_day_text_size" format="integer"/>
+        <attr name="week_day_lunar_text_size" format="integer"/>
+        <attr name="week_show_task_hint" format="boolean"/>
+        <attr name="week_show_lunar" format="boolean"/>
+        <attr name="week_show_holiday_hint" format="boolean"/>
+        <attr name="week_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleLayout">
+        <attr name="default_view">
+            <enum name="month" value="0"/>
+            <enum name="week" value="1"/>
+        </attr>
+        <attr name="auto_change_month_row" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PercentCircle">
+        <attr name="ptextColor" format="color"></attr>
+        <attr name="textSize" />
+        <attr name="radius" format="integer"/>
+        <attr name="background_color" format="color"/>
+        <attr name="ring_color" format="color"/>
+        <attr name="defaultring_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="BadgeView">
+        <attr name="iconSrc" format="reference"/>
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="iconHeight" format="dimension"/>
+        <!--若是icon是正方形的,可直接设置这个参数-->
+        <attr name="iconSize" format="dimension"/>
+
+        <attr name="text" format="string"/>
+        <attr name="textsize" format="dimension"/>
+        <attr name="textcolor" format="color"/>
+
+        <attr name="badgeNum" format="integer"/>
+        <!--是否显示数字, 为false时只显示小红点; 没有数字时,小红点的大小通过badgeSize设置-->
+        <attr name="showNum" format="boolean"/>
+        <attr name="badgeBackgroundColor" format="color"/>
+        <!--限制设置小红点的大小不能超过数字显示模式(代码中也做了限制); 显示在文字模式大小的左下角;-->
+        <!-- 不显示数字时, 小红点的大小, 不包括边线-->
+        <attr name="badgeRedSize" format="dimension"/>
+        <attr name="badgeNumSize" format="dimension"/>
+        <attr name="badgeNumColor" format="color"/>
+        <!--若小红点有边缘线,加上边缘线-->
+        <attr name="badgeBorderColor" format="color"/>
+        <attr name="badgeBorderWidth" format="dimension"/>
+        <!--badge相对于主体右上角的相对位置, 重叠的部分的大小; 可以设置负值-->
+        <!--默认是( badgeHeight/2 ), 正好覆盖一个角-->
+        <attr name="badgeBottom" format="dimension"/>
+        <attr name="badgeLeft" format="dimension"/>
+        <!-- 有些设计要求未读前面加"+", (至少我们设计师这么设计) 显示成 +1/+34/+99-->
+        <attr name="badgeNumPre" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"></attr>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowViewCard">
+        <!--圆角度-->
+        <attr name="shadowRound" format="dimension" />
+        <!--阴影的高度-->
+        <attr name="shadowLeftHeight" format="dimension" />
+        <attr name="shadowTopHeight" format="dimension" />
+        <attr name="shadowRightHeight" format="dimension" />
+        <attr name="shadowBottomHeight" format="dimension" />
+        <!--上方阴影的偏离度-->
+        <attr name="shadowOffsetY" format="dimension" />
+        <attr name="shadowOffsetX" format="dimension" />
+        <!--阴影颜色-->
+        <attr name="shadowCardColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <!--阴影颜色模糊度，越大越模糊-->
+        <attr name="shadowRadius" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/wv_usage_protocol"
+        android:layout_below="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+    <RelativeLayout
+        android:id="@+id/layout_loaddingfail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:paddingTop="@dimen/me_vip_height">
+
+        <ImageView
+            android:id="@+id/iv_loaddingfail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_web_loadding_fail"/>
+
+        <TextView
+            android:id="@+id/tv_loadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_loaddingfail"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="#474747"
+            android:layout_marginTop="@dimen/margin_19"
+            android:text="@string/loadding_fail"/>
+
+        <Button
+            android:id="@+id/btn_loadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_loadding"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_9"
+            android:paddingLeft="@dimen/padding_16"
+            android:paddingRight="@dimen/padding_16"
+            android:textSize="18sp"
+            android:textColor="#474747"
+            android:background="@drawable/ic_bg_loadding"
+            android:text="@string/reloadding"/>
+
+    </RelativeLayout>
+
+    <com.datalife.datalife_company.widget.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+    </com.datalife.datalife_company.widget.CustomTitleBar>
+
+    <com.datalife.datalife_company.widget.ProgressWebView
+        android:id="@+id/progress_wv"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/titlebar"
+        />
+
+
+</RelativeLayout>

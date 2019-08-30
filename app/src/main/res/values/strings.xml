@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">百年中堂-商用版</string>
+
+    <string name="apptab_me">我的</string>
+    <string name="apptab_homepage">设备</string>
+    <string name="apptab_health_home">健康之家</string>
+    <string name="apptab_shopping_mall">商城</string>
+
+
+    <string name="personal_files">个人档案</string>
+    <string name="health_report">健康报告</string>
+    <string name="ele_report">电子报告</string>
+
+    <!--电子报告-->
+    <string name="report_time">时间:</string>
+    <string name="report_address">地址:</string>
+    <string name="report_mobile">手机:</string>
+    <string name="report_gcid">编号:</string>
+    <string name="report_gcstatus">状态:</string>
+    <string name="report_mealname">套餐:</string>
+    <string name="gene_report">基因报告</string>
+
+    <!--登录-->
+    <string name="login">登录</string>
+    <string name="wx_login">微信登录</string>
+    <string name="third_login">第三方登录</string>
+    <string name="hint_login_name">请输入用户名</string>
+    <string name="hint_psd_name">请输入密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="vcode">验证码</string>
+    <string name="input_vcode">请输入您的联系电话</string>
+    <string name="toast_vcode_error">验证码错误，请重新输入验证码</string>
+    <string name="account_is_null">账号不能为空</string>
+    <string name="psw_is_null">密码不能为空</string>
+    <string name="hello">您好,</string>
+    <string name="hello_login">欢迎来到百年中堂，立即</string>
+    <string name="login_register">注册</string>
+    <string name="login_account">账号</string>
+    <string name="login_psd">密码</string>
+    <string name="login_loading">正在登录中...</string>
+    <string name="bind_user">绑定账号</string>
+    <string name="bind_wx">微信解绑</string>
+    <string name="bind_content">该微信可绑定新账号和已有账号\n</string>
+    <string name="bind_register"><html><font color="#282828">没账号？先</font><font color="#32b2fb">注册</font></html></string>
+    <string name="bind">绑定</string>
+
+    <!--健康监测仪-->
+    <string name="heartrate">血压</string>
+    <string name="oxygen">血氧</string>
+    <string name="temp">体温</string>
+    <string name="electrocardiogram">心电图</string>
+    <string name="start">开始测量</string>
+    <string name="stopmeasure">停止测量</string>
+    <string name="reference_value">参考数值》</string>
+    <string name="back">返回</string>
+    <string name="health_charging">设备正在充电中，请稍后</string>
+    <string name="health_uncontact">设备未连接手机</string>
+
+    <string name="all_member">全部成员</string>
+    <string name="all_project">全部项目</string>
+    <string name="battery">电量:</string>
+    <string name="the">本次</string>
+    <string name="previous">上次</string>
+    <string name="result">测量</string>
+    <string name="Normal">正常</string>
+    <string name="high_fever">高烧</string>
+    <string name="low_fever">低烧</string>
+    <string name="high_oxygen_content">含氧过高</string>
+    <string name="low_oxygen_content">含氧过低</string>
+    <string name="more_historical_record">更多历史记录 ></string>
+    <string name="no_location_permission">没有定位权限</string>
+    <string name="wait">请稍等...</string>
+    <string name="logon">登录中...</string>
+    <string name="get_data">获取数据中...</string>
+    <string name="loginout">退出登陆中...</string>
+    <string name="Ave_latest">最近平均30天</string>
+    <string name="loginout_hint">再按一次退出程序</string>
+
+
+    <!--注册-->
+    <string name="register_over">注册</string>
+    <string name="register_user">新用户注册</string>
+    <string name="register">注册</string>
+    <string name="register_input_user">请输入商户名称</string>
+    <string name="register_input_name">请输入商户地址</string>
+    <string name="register_input_phone">请输入负责人姓名</string>
+    <string name="register_input_psd">请输入密码(6-12个字符)</string>
+    <string name="register_sure_psd">请设置3位以上的密码</string>
+    <string name="register_vcode">获取验证码</string>
+    <string name="recapture_vcode">重新获取</string>
+    <string name="login_prompt">注册即表示你同意百年中堂</string>
+    <string name="user_usage_protocol">《用户使用协议》</string>
+    <string name="user_protocol">用户协议</string>
+    <string name="information_details">资讯详情</string>
+    <string name="prompt_login_name_not_empty">用户名不能为空，请输入用户名！</string>
+    <string name="prompt_login_name_not_allow">用户名必须3-10位</string>
+    <string name="prompt_register_name_not_allow">姓名不能为空</string>
+    <string name="prompt_login_passwrod_not_empty">密码不能为空，请输入密码！</string>
+    <string name="prompt_modify_old_passwrod_not_empty">密码不能为空，请输入密码！</string>
+    <string name="prompt_modify_new_passwrod_not_empty">密码不能为空，请输入密码！</string>
+    <string name="prompt_passwrod_not_allow">密码必须6-20个字符</string>
+    <string name="prompt_phone_number_invalid">输入的手机号码无效，请输入正确的手机号码！</string>
+    <string name="get_verification_code_error">获取验证码错误</string>
+    <string name="prompt_verification_code_not_empty">验证码不能为空，请输入正确验证码</string>
+    <string name="prompt_register_check_not_false">请同意</string>
+    <string name="register_datalife_protocol">请阅读百年中堂用户使用协议</string>
+    <string name="register_upload">请上传有效证件（相关有效证件）</string>
+    <string name="register_upload_pic">上传照片</string>
+    <string name="register_next">下一步</string>
+
+    <string name="register_company_name_isnull">注册商户名不能为空</string>
+    <string name="register_company_address_isnull">注册商户地址不能为空</string>
+    <string name="register_name_isnull">注册商户负责人不能为空</string>
+    <string name="register_phone_isnull">注册联系电话不能为空</string>
+    <string name="register_psd_isnull">注册密码不能为空</string>
+    <string name="register_cert_isnull">注册证件不能为空</string>
+
+    <!--我的-->
+    <string name="shoppingcar_manager">购物车管理</string>
+    <string name="ordermanager">订单管理</string>
+    <string name="familymanager">家庭管理</string>
+    <string name="collectionmanager">收藏管理</string>
+    <string name="equipmanager">设备管理</string>
+    <string name="planmanager">计划管理</string>
+    <string name="systemsetting">系统管理</string>
+    <string name="bindmember">成员绑定</string>
+    <string name="my_vip">我的vip会员</string>
+    <string name="expiry_time">2018-8-8到期</string>
+    <string name="me_setting">设置</string>
+    <string name="me_datetest">数据检测</string>
+    <string name="me_red_envelope">我的红包</string>
+    <string name="me_help">帮助中心</string>
+
+    <!--个人信息-->
+    <string name="user_info">基本信息</string>
+    <string name="text_change_cancle">取消</string>
+    <string name="text_change_ok">完成</string>
+    <string name="text_Myinfo_day">日</string>
+    <string name="text_Myinfo_month">月</string>
+    <string name="text_Myinfo_years">年</string>
+    <string name="my_username">姓名:</string>
+    <string name="my_sex_nan">男</string>
+    <string name="my_sex_nv">女</string>
+    <string name="my_sex_ch">性别:</string>
+    <string name="my_select_ch">请选择</string>
+    <string name="my_add_hint">请输入用户名</string>
+    <string name="my_age_ch">年龄:</string>
+    <string name="my_height_ch"> 身高:</string>
+    <string name="my_weight_ch"> 体重:</string>
+    <string name="my_select2_ch">可选</string>
+    <string name="my_weight">体重</string>
+    <string name="choose_time">请选择时间</string>
+    <string name="choose_weight">请选择体重</string>
+    <string name="choose_height">请选择身高</string>
+
+    <string name="take_photo">拍摄</string>
+    <string name="system_photo">从相册选择</string>
+
+    <string name="analyze_project_9">基础代谢</string>
+
+    <!--设置-->
+    <string name="evaluate">评价</string>
+    <string name="feedback">意见反馈</string>
+    <string name="scavenging_caching">清除缓存</string>
+    <string name="about_app">关于百年中堂</string>
+    <string name="app_exit">退出登录</string>
+    <string name="update_app">版本更新</string>
+
+    <!--设备管理-->
+    <string name="connecting_equip">当前设备</string>
+    <string name="connected_equip">我的设备</string>
+    <string name="searched_equip">其他设备</string>
+    <string name="search_equip">搜索设备</string>
+    <string name="add_member">添加成员</string>
+    <string name="bind_equit">绑定设备</string>
+    <string name="searching_equip">搜索设备中...</string>
+    <string name="no_searched_equip">未搜索到设备,</string>
+    <string name="connected_equit_success">连接设备成功</string>
+    <string name="connecting_equit">连接中</string>
+    <string name="bind_sure">确定绑定</string>
+
+    <!--成员绑定-->
+    <string name="machine_name">设备名称:</string>
+    <string name="bind_member">绑定成员:</string>
+    <string name="add_bind_member">家庭成员</string>
+    <string name="sure">确定</string>
+    <string name="save">保存</string>
+    <string name="bingmember">添加绑定成员</string>
+
+    <string name="family_addmember">绑定成员</string>
+
+    <string name="yuebao_bind">月报绑定</string>
+
+
+    <string name="is_check_net">请检测手机网络</string>
+
+    <!--头像-->
+    <string name="header">头像</string>
+    <string name="username">姓名</string>
+    <string name="user_sex">性别</string>
+    <string name="user_birthday">生日</string>
+    <string name="user_height">身高</string>
+    <string name="user_tel">绑定手机</string>
+    <string name="user_area">地区</string>
+    <string name="user_local">收货地址</string>
+
+    <!--nav-->
+    <string name="nav_usermanage">用户管理</string>
+
+    <!--添加新用户-->
+    <string name="add_user">添加家庭成员</string>
+    <string name="add_user_nickname">昵称</string>
+    <string name="add_user_weight">体重</string>
+    <string name="add_user_age">年龄</string>
+    <string name="add_user_tel">手机号</string>
+    <string name="add_user_local">所在地区</string>
+    <string name="add_input_tel">请填写你的手机号</string>
+    <string name="add_input_local">请选择你的所在地区</string>
+    <string name="no_add_user">您还没有家庭成员,请添加</string>
+    <string name="add_input_name">请输入你的姓名</string>
+    <string name="add_input_height">请设置你的身高</string>
+    <string name="add_input_weight">请设置你的体重</string>
+    <string name="add_input_age">请设置你的年龄</string>
+
+    <!--主页-->
+    <string name="health_testing">健康检测仪</string>
+    <string name="datalife_health_test">百年中堂检测仪</string>
+    <string name="datalife_body_fat">百年中堂体脂称</string>
+    <string name="datalife_blue_tooth">百年中堂智能牙刷</string>
+    <string name="home_body_fat">体脂称</string>
+    <string name='instrument_testing'>仪器检测</string>
+    <string name="health_self_testing">健康自测</string>
+    <string name="health_info">健康资讯</string>
+    <string name="health_tooth">智能牙刷</string>
+    <string name="no_net_tip">网络断开,请连接网络后重连。</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="testing_report">测试报告</string>
+    <string name="click_testing">点击测试</string>
+    <string name="wx_scan">微信扫码</string>
+
+    <!--商城-->
+    <string name="mall_main">商城开发中...</string>
+
+    <!--健康之家-->
+    <string name="health_home">健康之家开发中...</string>
+
+
+    <!--health-->
+    <string name="btn_logout_text">若有用到测量数据同步，点此登录服务器</string>
+    <string name="btn_login_text">已登录，点击退出</string>
+    <string name="switch_login_hm">登录到健康检测仪</string>
+    <string name="switch_login_therm">登录到体温计</string>
+    <string name="dbp_value">舒张压</string>
+    <string name="sbp_value">收缩压</string>
+    <string name="bt">体温</string>
+    <string name="spo2h_value">血氧</string>
+    <string name="ecg">心电</string>
+    <string name="bp">血压</string>
+    <string name="rr_max_value">RR最大值:</string>
+    <string name="max_value">RR最大值</string>
+    <string name="rr_min_value">RR最小值:</string>
+    <string name="min_value">RR最小值</string>
+    <string name="hr_value">心率</string>
+    <string name="ecg_hr_value">心率:</string>
+    <string name="hrv_value">心率变异性</string>
+    <string name="ecg_hrv_value">心率变异性:</string>
+    <string name="mood_value">心情:</string>
+    <string name="mood">心情</string>
+    <string name="br_value">呼吸率</string>
+    <string name="ecg_br_value">呼吸率:</string>
+    <string name="duration_value">测量持续时间: </string>
+    <string name="pager_speed_value">时间基准:</string>
+    <string name="calibration_value">增益:</string>
+    <string name="leak_and_check">存在漏气，请检查气路，重新测量。</string>
+    <string name="measurement_void">测量过程中请保持安静，此次测量作废，请重新测量。</string>
+    <string name="close">关闭</string>
+    <string name="testing">检测中</string>
+    <string name="temp_unit_f">℉</string>
+    <string name="temp_unit_c">℃</string>
+    <string name="ask_for_verify_code">请向管理员(%1$s)索取验证码：</string>
+    <string name="unconnect">未连接</string>
+    <string name="click_connect">点击连接</string>
+    <string name="connected">设备已连接</string>
+    <string name="connecting">设备连接中</string>
+    <string name="openble">打开蓝牙</string>
+    <string name="dbpandsdp">收缩压/舒张压</string>
+    <string name="history_record">历史纪录</string>
+    <string name="analyze_week_ch">周</string>
+    <string name="analyze_month_ch">月</string>
+    <string name="analyze_day_ch">日</string>
+    <string name="analyze_year_ch">年</string>
+
+    <string name="current_bt">当前体温</string>
+    <string name="current_spo2h">当前血氧</string>
+    <string name="current_hr">当前心率</string>
+
+    <string name="multifunction_health_monitor">多功能健康检测仪</string>
+    <string name="health_monitor">健康检测仪</string>
+
+    <string name="loadding_fail">数据加载失败</string>
+    <string name="reloadding">重新加载</string>
+
+    <!--yunchen-->
+    <string name="text_Low_text">偏低</string>
+    <string name="text_Standard_text">标准</string>
+    <string name="text_High_text">偏高</string>
+    <string name="text_Very_High_text">偏高</string>
+    <string name="good">优秀</string>
+    <string name="text_thin_text">偏瘦</string>
+    <string name="text_fat_text">偏胖</string>
+
+    <string name="history_last">相对于上一次</string>
+
+    <string name="search_history">更多搜索历史</string>
+    <string name="retract_search_history">收起搜索历史</string>
+    <string name="search_recommond">推荐搜索</string>
+
+    <!--体脂称-->
+    <string name="my_dev">我是设备</string>
+    <string name="my_member">我是成员</string>
+    <string name="scanner_action_scan">搜索</string>
+    <string name="scanner_title">选择设备:</string>
+    <string name="scanner_action_cancel">退出</string>
+    <string name="scanner_empty">没有发现设备</string>
+    <string name="not_available">n/a</string>
+
+    <string name="start_scan">扫描</string>
+    <string name="disconnect">断开连接</string>
+    <string name="not_support_ble">设备不支持BLE！</string>
+
+    <string name="sync_history">同步历史</string>
+    <string name="sync_list">同步列表</string>
+    <string name="sync_user">同步用户</string>
+    <string name="sync_time">同步时间</string>
+    <string name="update_user">更新用户</string>
+
+    <string name="unit_kg">千克</string>
+    <string name="unit_lb">英磅</string>
+    <string name="unit_st">英石</string>
+    <string name="unit_jin">斤</string>
+
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="age">年龄: %1$d</string>
+    <string name="height">身高: %1$d</string>
+    <string name="weight">体重: %1$s</string>
+    <string name="fat_temp">温度: %1$s</string>
+    <string name="default_value">--</string>
+    <string name="default_weight">体重: --.--</string>
+    <string name="default_temp">温度: --.--</string>
+
+
+    <string name="weight_value">体重</string>
+    <string name="bmi_value">BMI</string>
+    <string name="fat_value">皮下脂肪率</string>
+    <string name="water_value">水分</string>
+    <string name="muscle_value">肌肉率</string>
+    <string name="bones_value">骨量</string>
+    <string name="protein_rate_value">蛋白率</string>
+    <string name="defatted_body_weight">去脂体重</string>
+    <string name="metabolize_value">基础代谢率</string>
+    <string name="bodyage_value">身体年龄</string>
+    <string name="uvi_value">内脏体脂指数</string>
+    <string name="bfr_value">体脂率</string>
+
+
+    <string name="weight_value_history">体重(kg)</string>
+    <string name="bmi_value_history">BMI</string>
+    <string name="fat_value_history">皮下脂肪率</string>
+    <string name="water_value_history">水分(%)</string>
+    <string name="muscle_value_history">肌肉率(%)</string>
+    <string name="bones_value_history">骨量(kg)</string>
+    <string name="protein_rate_value_history">蛋白率</string>
+    <string name="defatted_body_weight_history">去脂体重(kg)</string>
+    <string name="metabolize_value_history">基础代谢率(kcal)</string>
+    <string name="bodyage_value_history">身体年龄</string>
+    <string name="uvi_value_history">内脏体脂指数</string>
+    <string name="bfr_value_history">体脂率(%)</string>
+
+    <string name="search">搜索</string>
+    <string name="state_connected">已连接设备: %1$s</string>
+    <string name="state_disconnected">已与设备断开连接</string>
+    <string name="state_service_discovered">已发现服务</string>
+    <string name="state_indication_success">使能成功</string>
+    <string name="state_error">连接异常, 异常信息: %1$s; 错误码: %2$d</string>
+    <string name="settings_status">状态: %1$s</string>
+    <string name="normal">正常</string>
+    <string name="low_power">低功耗</string>
+    <string name="low_voltage">低电压</string>
+    <string name="error">超载</string>
+    <string name="time_out">超时</string>
+    <string name="unstable">称不稳定</string>
+    <string name="set_unit_success">设置单位成功</string>
+    <string name="set_unit_failed">设置单位失败</string>
+    <string name="set_time_success">设置时间成功</string>
+    <string name="set_time_failed">设置时间失败</string>
+    <string name="set_user_success">设置用户成功</string>
+    <string name="set_user_failed">设置用户失败</string>
+    <string name="update_user_list_success">更新用户列表成功</string>
+    <string name="update_user_list_failed">更新用户列表失败</string>
+    <string name="update_user_success">更新用户成功</string>
+    <string name="update_user_failed">更新用户失败</string>
+    <string name="no_history">没有历史数据</string>
+    <string name="history_start_send">历史数据开始发送</string>
+    <string name="history_send_over">历史数据发送完成</string>
+    <string name="no_match_user">没有匹配的用户</string>
+    <string name="adc_measured_ind">阻抗值测量中</string>
+    <string name="adc_error">阻抗值测量失败</string>
+    <string name="unknown">未知</string>
+    <string name="request_disconnect">蓝牙请求断开</string>
+
+    <string name="no_dev">您还没有添加设备，请点击添加</string>
+
+    <string name="body_fat_data">体脂数据: %1$s</string>
+    <string name="history_data">历史数据: %1$s</string>
+
+    <string name="ble_version">BLE版本: %1$s</string>
+    <string name="user_id">用户编号: %1$s</string>
+    <string name="mcu_date">测量日期: %1$s</string>
+    <string name="mcu_time">测量时间: %1$s</string>
+    <string name="adc">阻抗: %1$s</string>
+
+    <string name="test_time">测量时间:</string>
+    <string name="date_detail">数据详情</string>
+    <string name="history_date">历史数据</string>
+
+    <string name="test_details">检测详情</string>
+    <string name="test_project">检测项目</string>
+
+    <string name="clear_log">清空Log</string>
+
+
+    <!--<string name="fatList_2">BMI是用体重公斤数除以身高米数平方得出的数字，是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>-->
+    <!--<string name="fatList_3">脂肪率是指身体成分中，脂肪组织所占的比率。测量脂肪率比单纯的只测量体重更能反映我们身体的脂肪水平。</string>-->
+    <!--<string name="fatList_5">身体水分占体重的百分比，此数据和肌肉量有着极其密切的关系，因为肌肉中含大量水分(大概70%），这项指标能够反应减重的方式是否正确，如果体水分率下降，不但有损健康，更会令体脂肪率上升。</string>-->
+    <!--<string name="fatList_4">人体体重的成分可分为非脂肪物质与脂肪物质二大部分，肌肉含量是非脂肪物质中去除掉约占体重4%-6%的无机质。肌肉是好东西，肌肉量越大，自己基础代谢就越高，越不容易胖。</string>-->
+    <!--<string name="fatList_7">在很多人用骨量来形容和表示骨骼，特别是四肢骨骼的粗细。如果按照严格意义上的骨量来看，无论对任何脊椎动物，也无论他们是老还是少，骨量都是非常重要的。骨量代表它们骨骼健康的情况。</string>-->
+    <!--<string name="fatList_9">基础代谢是维持人体生命活动正常进行一天所需的最低能量，说通俗点，就是一个“植物人”生活一天所消耗的能量（不吃不动不喝躺床上一天所消耗的能量）。</string>-->
+    <!--<string name="fatList_11">内脏脂肪是人体脂肪中的一种，与皮下脂肪（也就是我们平时所了解的身体上可以摸得到的“肥肉”） 不同，它围绕着人的脏器，主要存在于腹腔内。内脏脂肪对我们的健康意义重大。</string>-->
+    <!--<string name="fatList_8">一个人体脂率越低，基础代谢越高，她的身体年龄就越小。身体年龄高于实际年龄，也正说明着你的脂肪在堆积，基础代谢缓慢，你的身体（包括内在的机能和外在的皮肤）正在加速衰老。</string>-->
+    <!--<string name="fatList_10">一个人体脂率越低，基础代谢越高，她的身体年龄就越小。身体年龄高于实际年龄，也正说明着你的脂肪在堆积，基础代谢缓慢，你的身体（包括内在的机能和外在的皮肤）正在加速衰老。</string>-->
+
+    <string name="fatList_1">为裸体或穿着已知重量的工作衣称量得到的身体重量</string>
+    <string name="fatList_2">BMI是用体重公斤数除以身高米数平方得出的数字，是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。</string>
+    <string name="fatList_3">脂肪率是指身体成分中，脂肪组织所占的比率。测量脂肪率比单纯的只测量体重更能反映我们身体的脂肪水平。</string>
+    <string name="fatList_4">根据人体肌肉总量和人体体重、身高等相结合得到的人体的一个比例值，这个值的范围决定一个人的身体健康状态以及力量的多少</string>
+    <string name="fatList_5">人体成分中水分占体重的百分比。充足的水分可以促进新陈代谢。</string>
+    <string name="fatList_6">去脂体重”由身体细胞重量（BCW）、细胞外水分（ECW）、和去脂的固体部分（FFS）组成。其主要成分是骨骼、肌肉等。正常情况，去脂体重与身体脂肪含量有一定比例。测量去脂体重对促进能量转换和耗氧、调节水盐代谢等具有重要意义</string>
+    <string name="fatList_7">人体成分中骨组织的重量。骨组织是一种坚硬的结缔组织,也是由细胞、纤维和基质构成的。纤维为骨胶纤维（和胶原纤维一样），基质含有大量的固体无机盐</string>
+    <string name="fatList_8">一个人体脂率越低，基础代谢越高，她的身体年龄就越小。身体年龄高于实际年龄，也正说明着你的脂肪在堆积，基础代谢缓慢，你的身体（包括内在的机能和外在的皮肤）正在加速衰老。</string>
+    <string name="fatList_9">基础代谢率是指人体在清醒而又极端安静的状态下，不受肌肉活动、环境温度、食物及精神紧张等影响时的能量代谢率。基础代谢率越高，你每天所消耗的热量就越多，也就越不容易发胖</string>
+    <string name="fatList_10">皮下的脂肪组织，而这层脂肪是存在真皮层和筋膜层的中间位置</string>
+    <string name="fatList_11">内脏脂肪面积会导致损害健康的并发症更易发生</string>
+
+
+    <!--calendar-->
+    <string name="calendar_today">今天</string>
+    <string-array name="calendar_month">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+
+    <string-array name="calendar_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+    <string name="bp_normal">正常血压</string>
+    <string name="bp_low">低血压</string>
+    <string name="bp_scarce">正常高血压</string>
+    <string name="bp_little">轻度高血压</string>
+    <string name="bp_middle">中度高血压</string>
+    <string name="bp_very_high">重度高血压</string>
+    <string name="dp_dbpandsdp">收缩压(高压)/舒张压(低压)</string>
+    <string name="now_dbp">当前舒张压(低压)</string>
+    <string name="now_sdp">当前收缩压(高压)</string>
+
+    <string name="bp_chart">参考图表》</string>
+
+
+    <!--好牙-->
+    <string name="use_tooth_count">刷头使用次数:</string>
+    <string name="use_tooth_tip">每天至少2次，最佳3次!</string>
+    <string name="tooth_time">时长</string>
+    <string name="tooth_intensity">刷牙力度</string>
+    <string name="hp_tip">了解HP牙膏></string>
+    <string name="tooth_battery">牙刷电量</string>
+    <string name="white_mode">美白模式</string>
+    <string name="tooth_mode">刷牙模式</string>
+    <string name="brushing_time">刷牙时间</string>
+    <string name="tooth_total_time">刷牙总时长</string>
+    <string name="tooth_total_time_hint">刷牙时间推荐3分钟</string>
+    <string name="tooth_range">刷牙范围</string>
+    <string name="tooth_range_hint">每颗牙齿都应刷到</string>
+    <string name="tooth_average">刷牙均匀度</string>
+    <string name="tooth_tip">刷牙小贴士</string>
+    <string name="tooth_average_hint">保持刷牙时长都一样</string>
+    <string name="unknown_command">未知命令</string>
+    <string name="rechange_brush_head">更新刷头</string>
+    <string name="buy_brush_head">购买刷头</string>
+    <string name="brush_head_info">牙刷头使用情况</string>
+    <string name="brush_surplus">刷头剩余次数</string>
+    <string name="brush_select">确定绑定勾选的成员吗?</string>
+    <string name="brush_level1">护齿新秀</string>
+
+
+    <!--红包-->
+    <string name="redenvelope_detaile">红包明细</string>
+    <string name="redenvelope_tatol">累计红包金额（元）</string>
+    <string name="redenvelope_bnzt">百年中堂红包</string>
+
+    <string name="app_tip">提示</string>
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+
+    <!--获取地址-->
+    <string name="modify_sure">确定</string>
+
+
+    <string name="upload_fail">证件上传失败</string>
+
+    <!--zxing-->
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <paths>
+        <external-path path="" name="download"/>
+        <external-path name="camera_photos" path="test/" />
+    </paths>
+</resources>

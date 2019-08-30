@@ -1,0 +1,75 @@
+package com.datalife.datalife_company.bean;
+
+import java.io.Serializable;
+
+/**
+ * 获取用户成员的对象
+ * Created by LG on 2019/7/18.
+ */
+public class ResultFamily<T,P> implements Serializable {
+
+    private String Status;
+    private T Data;
+    private String Code;
+    private P Page;
+    private String StartTime;
+    private String LengTime;
+    private String Desc;
+
+    public String getStatus() {
+        return Status;
+    }
+
+    public void setStatus(String status) {
+        Status = status;
+    }
+
+    public String getCode() {
+        return Code;
+    }
+
+    public void setCode(String code) {
+        Code = code;
+    }
+
+    public P getPage() {
+        return Page;
+    }
+
+    public void setPage(P page) {
+        Page = page;
+    }
+
+    public String getStartTime() {
+        return StartTime;
+    }
+
+    public T getData() {
+        return Data;
+    }
+
+    public void setData(T data) {
+        Data = data;
+    }
+
+    public String getDesc() {
+        return Desc;
+    }
+
+    public void setDesc(String desc) {
+        Desc = desc;
+    }
+
+    public void setStartTime(String startTime) {
+        StartTime = startTime;
+    }
+
+    public String getLengTime() {
+        return LengTime;
+    }
+
+    public void setLengTime(String lengTime) {
+        LengTime = lengTime;
+    }
+}
+

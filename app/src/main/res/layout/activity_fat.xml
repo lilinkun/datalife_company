@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_toolbar_title"
+    android:orientation="vertical">
+
+    <com.datalife.datalife_company.widget.CustomTitleBar
+        android:id="@+id/headtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:img_left="@drawable/backicon"
+        app:text_title="@string/datalife_body_fat">
+    </com.datalife.datalife_company.widget.CustomTitleBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/ll_fat_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="52dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@mipmap/ic_fat_gradient_color">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="230dp">
+
+                            <TextView
+                                android:id="@+id/tv_connected_equit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/connected_equit_success"
+                                android:textColor="@color/white"
+                                android:layout_centerHorizontal="true"/>
+
+                            <com.datalife.datalife_company.widget.DialProgress
+                                android:id="@+id/dial_progress_bar"
+                                android:layout_width="300dp"
+                                android:layout_height="210dp"
+                                android:layout_below="@+id/tv_connected_equit"
+                                android:layout_centerHorizontal="true"
+                                android:padding="@dimen/padding_10"
+                                app:animTime="1000"
+                                app:arcColors="@array/gradient_arc_color"
+                                app:arcWidth="@dimen/normal"
+                                app:dialColor="@color/white"
+                                app:dialColor1="@color/round_bg"
+                                app:dialIntervalDegree="6"
+                                app:dialWidth="2dp"
+                                app:maxValue="150"
+                                app:startAngle="135"
+                                app:sweepAngle="270"
+                                app:unit="KG"
+                                app:unitColor="@color/weight_text_bg"
+                                app:unitSize="@dimen/text_size_fat_16"
+                                app:value="0"
+                                app:valueColor="@color/weight_text_bg"
+                                app:valueSize="@dimen/text_size_fat_33" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal">
+                                <TextView
+                                    android:id="@+id/pg_weight_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/text_size_40"
+                                    android:text="--"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/text_size_fat_20"
+                                    android:layout_marginTop="@dimen/margin_15"
+                                    android:textColor="@color/white"
+                                    android:text="KG"/>
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <com.datalife.datalife_company.widget.CommonLayout
+                    android:id="@+id/commonlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                </com.datalife.datalife_company.widget.CommonLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.datalife.datalife_company.widget.CommonTitle
+            android:id="@+id/mcctitle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@android:color/transparent">
+        </com.datalife.datalife_company.widget.CommonTitle>
+
+
+        <ProgressBar
+            android:id="@+id/pb_loadding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/loading"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

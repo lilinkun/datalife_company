@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#D9DCE0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:background="#D9DCE0"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/byGallery"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape_data_1"
+                android:scrollHorizontally="true"
+                android:text="拍照上传"
+                android:textColor="@color/w_color"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/byCamera"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/byGallery"
+                android:background="@drawable/shape_data_1"
+                android:scrollHorizontally="true"
+                android:layout_marginTop="20dp"
+                android:text="本地上传"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/a"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_pop_w"
+                android:text="取消"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

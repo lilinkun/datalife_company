@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/sharp_main_machine_bg"
+    android:paddingLeft="@dimen/padding_10"
+    android:gravity="center_vertical">
+
+
+    <TextView
+        android:id="@+id/tv_machine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black_text_bg"
+        android:layout_marginTop="@dimen/margin_7"
+        android:text="多功能检测仪"/>
+
+
+    <TextView
+        android:id="@+id/tv_machine_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="91:19:91:19:91"
+        android:textSize="12dp"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:layout_marginTop="@dimen/margin_7"/>
+
+
+    <ImageView
+        android:id="@+id/iv_main_machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_main_bodyfat"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"/>
+
+
+</LinearLayout>

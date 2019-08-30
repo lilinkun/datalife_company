@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.datalife.datalife_company.widget.CustomTitleBar
+        android:id="@+id/custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:img_left = "@drawable/backicon"
+        app:text_title="@string/equipmanager"
+        >
+    </com.datalife.datalife_company.widget.CustomTitleBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/me_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/margin_12"
+                android:paddingLeft="@dimen/padding_center"
+                android:paddingRight="@dimen/padding_center"
+                android:paddingTop="@dimen/padding_11"
+                android:paddingBottom="@dimen/padding_11"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connecting_equip"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14.4"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:visibility="gone"
+                android:background="@color/me_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_binding_equit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/padding_45"
+                android:paddingRight="@dimen/padding_center"
+                android:paddingTop="@dimen/padding_11"
+                android:paddingBottom="@dimen/padding_11"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/tv_connect_equip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_bind_member"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/ic_bind_frame"
+                    android:padding="@dimen/margin_little"
+                    android:gravity="center"
+                    android:text="@string/add_member"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/me_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_center"
+                android:paddingRight="@dimen/padding_center"
+                android:paddingTop="@dimen/padding_11"
+                android:paddingBottom="@dimen/padding_11"
+                android:layout_marginTop="@dimen/margin_12"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_equip_arrow"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connected_equip"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/me_gray"/>
+            <ListView
+                android:id="@+id/lv_bluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone">
+
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/me_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_center"
+                android:paddingRight="@dimen/padding_center"
+                android:paddingTop="@dimen/padding_11"
+                android:paddingBottom="@dimen/padding_11"
+                android:layout_marginTop="@dimen/margin_12"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_equip_arrow"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/searched_equip"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    style="@android:style/Widget.ProgressBar.Small"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/me_gray"/>
+            <ListView
+                android:id="@+id/lv_searched_bluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone">
+
+            </ListView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_bluetooth_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_equip"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:textColor="@color/gray"
+            android:background="@color/white">
+
+        </Button>
+    </RelativeLayout>
+</LinearLayout>

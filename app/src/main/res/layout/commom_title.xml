@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_common_title"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_my_dev"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_my_dev"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/my_dev"
+                android:textSize="@dimen/text_size_15"
+                android:maxEms="12"
+                android:gravity="right"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/ic_machine_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_my_dev"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/margin_7"
+                android:src="@mipmap/ic_unclick_tip"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dev_member"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_my_dev_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_member"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/ic_member_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_my_dev_member"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/margin_7"
+            android:src="@mipmap/ic_unclick_tip"/>
+    </RelativeLayout>
+
+</LinearLayout>
